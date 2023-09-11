@@ -13,6 +13,8 @@ img {
 
 a {
    text-decoration: none;
+   color: black;
+   
 }
 
 figure > img {
@@ -46,7 +48,8 @@ ul, ol, menu {
 }
 
 
-.button {
+
+.button{
     background-color: #0061FF;
     color: white;
     padding: 10px 20px;
@@ -87,9 +90,7 @@ ul, ol, menu {
     display: flex;
 }
 
-a:hover,a:visited {
-    color: black;
-}
+
 
 /* HERO */
 
@@ -102,7 +103,14 @@ a:hover,a:visited {
     font-weight: 800;
 }
 
+.button-big {
+    display: inline-block;
+    margin: 35px 0;
+}
 
+.row, .col-hero {
+    padding: 35px 5px;
+}
 
 
 
