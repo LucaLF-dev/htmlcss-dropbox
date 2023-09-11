@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-family: 'Open Sans', sans-serif;
+}
 
 img {
     width: 100%;
@@ -27,6 +30,7 @@ ul, ol, menu {
 
 .page-header {
     font-size: 16px;
+    font-weight: 400;
 }
 
 .container-big {
@@ -38,23 +42,18 @@ ul, ol, menu {
 }
 
 .row {
-    
-    display: flex;
+     display: flex;
     justify-content: space-between;
-    
 }
 
 .list-nav > li {
     display: inline-block;
+    vertical-align: middle;
     padding: 20px;
-    line-height: 20px;
-    
-    
 }
 
 .col-nav {
     display: flex;
-    align-items: baseline;
 }
 
 
