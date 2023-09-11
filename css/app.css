@@ -15,3 +15,16 @@ figure > img {
 ul, ol, menu {
     list-style: none;
 }
+
+.container-fluid {
+    width: 100%;
+}
+
+.container-big {
+    max-width: 1200px;
+}
+
+.container {
+
+     max-width: 1000px;
+}
