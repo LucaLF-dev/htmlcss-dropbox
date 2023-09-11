@@ -69,12 +69,14 @@ ul, ol, menu {
 .page-header {
     font-size: 16px;
     font-weight: 400;
+    
 }
 
 .list-nav > li {
     display: inline-block;
     vertical-align: middle;
     padding: 20px 20px;
+    color: black;
 }
 
 .list-nav .logo {
@@ -83,6 +85,10 @@ ul, ol, menu {
 
 .col-nav {
     display: flex;
+}
+
+a:hover,a:visited {
+    color: black;
 }
 
 /* HERO */
