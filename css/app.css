@@ -49,12 +49,18 @@ ul, ol, menu {
 .list-nav > li {
     display: inline-block;
     vertical-align: middle;
-    padding: 20px;
+    padding: 20px 20px;
 }
+
+.list-nav .logo {
+    padding: 0 20px;
+}
+
 
 .col-nav {
     display: flex;
 }
+
 
 
 .button {
