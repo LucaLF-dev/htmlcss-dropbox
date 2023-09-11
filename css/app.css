@@ -32,6 +32,7 @@ ul, ol, menu {
 .container-big {
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .container {
@@ -49,6 +50,18 @@ ul, ol, menu {
     background-color: #0061FF;
     color: white;
     padding: 10px 20px;
+}
+
+.col-12 {
+    flex-basis: calc(100%);
+}
+
+.col-8 {
+    flex-basis: calc((100% * 8) / 12);
+}
+
+.col-4 {
+    flex-basis: calc((100% * 4) / 12);
 }
 
 /* HEADER */
@@ -73,6 +86,15 @@ ul, ol, menu {
 }
 
 /* HERO */
+
+.section-hero {
+    background-color: #B4D0E7;
+}
+
+.hero-title {
+    font-size: 75px;
+    font-weight: 800;
+}
 
 
 
