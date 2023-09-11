@@ -8,6 +8,10 @@ img {
     width: 100%;
 }
 
+a {
+   text-decoration: none;
+}
+
 figure > img {
     width: 100%;
 }
@@ -63,16 +67,16 @@ ul, ol, menu {
 
 /* DEBUG */
 
-.debug .header {
+/* .debug .header {
     border: 2px solid black;
     /* padding: 60px; */
-}
+/* }
 
 .debug .container-fluid {
     border: 2px solid fuchsia;
     /* padding: 10px; */
-}
+/* }
 
 .debug .row{
     border: 2px solid black;
-}
+} */ 
