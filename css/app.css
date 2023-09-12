@@ -14,7 +14,6 @@ img {
 a {
    text-decoration: none;
    color: currentColor;
-   
 }
 
 figure > img {
@@ -50,13 +49,17 @@ ul, ol, menu {
     
 }
 
-
+.row > a {
+    display: inline-block;
+}
 
 .button{
+    display: inline-block;
     background-color: #0061FF;
     color: white;
     line-height: 34px;
     padding: 0 24px;
+    
 }
 
 .col-12 {
@@ -74,6 +77,7 @@ ul, ol, menu {
 .row > [class^='col'] {
     padding: 0 25px;
 }
+
 /* HEADER */
 
 .page-header .row {
@@ -142,16 +146,24 @@ ul, ol, menu {
 
 
 .button-big {
-    display: block;
+    display: inline-block;
     margin: 35px 0;
+    
 }
 
 
 /* SECTION PLAN */
 
-.row > .card {
+.col-12 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid grey;
     flex-basis: calc((100% * 4) / 12);
 }
+
 
 .preferences {
     display: inline-block;
