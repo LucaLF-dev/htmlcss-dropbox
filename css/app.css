@@ -33,13 +33,13 @@ ul, ol, menu {
 }
 
 
-.container-big {
+.container-lg {
     max-width: 1200px;
     margin: 0 auto;
     
 }
 
-.container {
+.container-sm {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -147,22 +147,29 @@ ul, ol, menu {
 }
 
 
+/* SECTION PLAN */
+
+.row > .card {
+    flex-basis: calc((100% * 4) / 12);
+}
 
 
 
 
-/* DEBUG */
+/* debug */
+.debug + * .row > [class^='col'] {
+	border: 2px solid cornflowerblue;
+	padding: 10px;
+}
 
-/* .debug .header {
-    border: 2px solid black;
-    /* padding: 60px; */
-/* }
+.debug + * .container-sm,
+.debug + * .container-fluid,
+.debug + * .container-lg {
+	border: 2px solid black;
+	padding: 10px;
+}
 
-.debug .container-fluid {
-    border: 2px solid fuchsia;
-    /* padding: 10px; */
-/* }
-
-.debug .row{
-    border: 2px solid black;
-} */ 
+.debug + * .row {
+	border: 2px solid tomato;
+	padding: 10px;
+}
