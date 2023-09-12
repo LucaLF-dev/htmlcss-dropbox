@@ -8,17 +8,18 @@ html {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 a {
    text-decoration: none;
-   color: black;
+   color: currentColor;
    
 }
 
 figure > img {
     width: 100%;
+    display: block;
 }
 
 ul, ol, menu {
@@ -27,6 +28,7 @@ ul, ol, menu {
 
 .container-fluid {
     width: 100%;
+    margin: 0 auto;
     
 }
 
@@ -44,7 +46,8 @@ ul, ol, menu {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 
 
@@ -52,7 +55,8 @@ ul, ol, menu {
 .button{
     background-color: #0061FF;
     color: white;
-    padding: 10px 20px;
+    line-height: 34px;
+    padding: 0 24px;
 }
 
 .col-12 {
@@ -67,50 +71,82 @@ ul, ol, menu {
     flex-basis: calc((100% * 4) / 12);
 }
 
+.row > [class^='col'] {
+    padding: 0 25px;
+}
 /* HEADER */
+
+.page-header .row {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
 
 .page-header {
     font-size: 16px;
     font-weight: 400;
-    
 }
 
+.list-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
 .list-nav > li {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 20px 20px;
+    display: block;
+    line-height: 20px;
+    padding: 0 20px;
     color: black;
+    
 }
 
 .list-nav .logo {
     padding: 0 20px;
+    display: block;
 }
 
-.col-nav {
+.list-nav{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
 
 
 
 /* HERO */
 
-.section-hero {
+.col-hero > .icon-arrow {
+    display: inline;
+    text-align: left;
+    margin-top: 30px;
+} 
+
+.hero .row + .row {
+    margin-top: 32px;
+}
+
+.hero {
     background-color: #B4D0E7;
+    background-position: 50px 10px;
+    padding-top: 80px;
 }
 
 .hero-title {
     font-size: 75px;
     font-weight: 800;
+    
 }
 
+
 .button-big {
-    display: inline-block;
+    display: block;
     margin: 35px 0;
 }
 
-.row, .col-hero {
-    padding: 35px 5px;
-}
+
 
 
 
