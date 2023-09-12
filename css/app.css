@@ -31,7 +31,6 @@ ul, ol, menu {
     
 }
 
-
 .container-lg {
     max-width: 1200px;
     margin: 0 auto;
@@ -51,6 +50,13 @@ ul, ol, menu {
 
 .row > a {
     display: inline-block;
+}
+
+.dispaly-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .button{
@@ -161,15 +167,29 @@ ul, ol, menu {
 
 .card {
     border: 1px solid grey;
-    flex-basis: calc((100% * 4) / 12);
+    flex-basis: calc((100% * 4 ) / 12);
 }
 
+.type, .card-container {
+    padding: 20px;
+}
 
-.preferences {
+.card.card-stretch {
+   flex-basis: calc(100%);
+}
+
+.card > [class^='type'] {
+    border-bottom: 1px solid grey ;
+}
+
+.input-button-fatturazione > .preferences {
     display: inline-block;
     padding-right: 20px;
 }
 
+.card > span {
+    display:block;
+}
 
 
 
