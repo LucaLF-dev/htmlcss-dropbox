@@ -55,8 +55,9 @@ ul, ol, menu {
 .dispaly-flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    
+    /* justify-content: space-between;
+    align-items: center; */
 }
 
 .button{
@@ -160,9 +161,14 @@ ul, ol, menu {
 
 /* SECTION PLAN */
 
+.section-plan {
+    padding-top: 90px;
+}
+
 .col-12 {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .card {
@@ -187,26 +193,48 @@ ul, ol, menu {
     padding-right: 20px;
 }
 
-.card > span {
-    display:block;
+
+.resume-list-title {
+    
+    font-weight: 600;
 }
 
+.card-container.dispaly-flex {
+    gap: 50px;
+    padding-bottom: 200px;
+}
 
+.details-card > * {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.card-container .container-details {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.card-container .card-solution{
+    padding-right: 250px;
+}
 
 /* debug */
 .debug + * .row > [class^='col'] {
 	border: 2px solid cornflowerblue;
-	padding: 10px;
+	padding: 10px 0px ;
 }
 
 .debug + * .container-sm,
 .debug + * .container-fluid,
 .debug + * .container-lg {
 	border: 2px solid black;
-	padding: 10px;
+	padding: 10px 0px;
 }
 
 .debug + * .row {
 	border: 2px solid tomato;
-	padding: 10px;
+	padding: 10px 0px;
 }
