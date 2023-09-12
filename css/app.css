@@ -153,6 +153,11 @@ ul, ol, menu {
     flex-basis: calc((100% * 4) / 12);
 }
 
+.preferences {
+    display: inline-block;
+    padding-right: 20px;
+}
+
 
 
 
