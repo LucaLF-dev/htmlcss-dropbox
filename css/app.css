@@ -256,6 +256,10 @@ section {
     
 }
 
+.card.card-text {
+    display: flex;
+    gap: 38px;
+}
 
 .col-4.col-operation  > .card{
     border: none;
