@@ -223,6 +223,17 @@ ul, ol, menu {
     padding-right: 250px;
 }
 
+
+/* SECTION PHOTO */
+
+.button .button-white {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+
 /* debug */
 .debug + * .row > [class^='col'] {
 	border: 2px solid cornflowerblue;
