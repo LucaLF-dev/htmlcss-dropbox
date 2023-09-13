@@ -238,13 +238,32 @@ ul, ol, menu {
     gap: 30px;
 }
 
-.contact-text {
-    padding-top: 30px;
-}
+
+/* SECTION OPERATION */
 
 .contact-text > .text-item {
     padding-top: 15px;
 }
+
+.card.card-text {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.col-4.col-operation  > .card{
+    border: none;
+    
+}
+
+.col-4.col-operation {
+    padding-top: 35px ;
+    padding-bottom: 35px;
+}
+
+
 
 
 
