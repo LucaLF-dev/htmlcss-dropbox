@@ -226,11 +226,27 @@ ul, ol, menu {
 
 /* SECTION PHOTO */
 
-.button .button-white {
+.button.button-white {
     background-color: white;
     border: 1px solid black;
     color: black;
 }
+
+.col-contact-partner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-text {
+    padding-top: 30px;
+}
+
+.contact-text > .text-item {
+    padding-top: 15px;
+}
+
+
 
 
 
