@@ -66,6 +66,8 @@ ul, ol, menu {
     color: white;
     line-height: 34px;
     padding: 0 24px;
+    text-align: center;
+    white-space: nowrap;
     
 }
 
@@ -159,7 +161,7 @@ ul, ol, menu {
 }
 
 
-/* SECTION PLAN */
+/* -------- SECTION PLAN ------- */
 
 .section-plan {
     padding-top: 90px;
