@@ -87,6 +87,10 @@ ul, ol, menu {
     padding: 0 25px;
 }
 
+section {
+    padding-top: 160px;
+}
+
 /* HEADER */
 
 .page-header .row {
