@@ -409,12 +409,13 @@ section {
     color: white;
 }
 
-.card-footer {
-    display: inline-block;
-    padding-right: 30px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.row-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
 }
+
 
 /* debug */
 .debug + * .row > [class^='col'] {
