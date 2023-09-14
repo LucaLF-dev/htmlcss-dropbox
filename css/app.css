@@ -60,6 +60,10 @@ ul, ol, menu {
     align-items: center; */
 }
 
+.justify-content-start{
+    justify-content: start;
+}
+
 .button{
     display: inline-block;
     background-color: #0061FF;
@@ -90,6 +94,44 @@ ul, ol, menu {
 section {
     padding-top: 160px;
 }
+
+.bg-blue {
+    background-color:#0D2481 ; 
+}
+
+.bg-light-green {
+    background-color:#A2D39B ; 
+}
+
+.bg-yellow {
+    background-color: #FFD830;
+}
+
+.bg-red {
+    background-color: #FF1C1C;
+}
+
+.bg-dark-red{
+    background-color: #D5001F;
+}
+
+.bg-brown-red{
+    background-color: #61082B;
+}
+
+.bg-light-grey{
+    background-color: #F5F5F5;
+}
+
+.bg-light-blue {
+    background-color:#B4D0E7 ;
+}
+
+.bg-celeste {
+    background-color: #3683fe;
+}
+
+
 
 /* HEADER */
 
@@ -271,11 +313,104 @@ section {
     padding-bottom: 35px;
 }
 
+/* SECTION SPONSOR */
 
 
 
+.col-4.col-sponsor-title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.col-4.col-sponsor-image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+
+}
+
+.col-4.col-sponsor-image > .card-sponsor-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-sponsor-img {
+    flex-basis: calc(50%);
+    padding: 20px;
+    text-align: center;
+    aspect-ratio: 1;
+}
+
+.card-sponsor-img > img {
+    max-width: 50%;
+}
+.card-sponsor-citation__title > img {
+    max-width: 50%;
+}
+
+.card-sponsor-citation__text > p {
+    margin-bottom: 20px;
+}
+
+.design-image::after {
+    content: '';
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width: 120px;
+}
+
+.col-4.col-sponsor-citation {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.card-sponsor-citation__title,.card-sponsor-citation__text {
+    padding: 30px;
+}
+
+.section-sponsor > .container-sm {
+    padding: 90px 0;
+}
+
+/* SECTION CALL TO ACTION */
+
+.section-cta {
+    background-color:  #B4D0E7;
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+.col-12.col-12-cta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.col-12.col-12-cta > .cta-title {
+    color: #61082B;
+}
 
 
+/* FOOTER */
+
+.page-footer {
+    background-color: black;
+    color: white;
+}
+
+.card-footer {
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 /* debug */
 .debug + * .row > [class^='col'] {
